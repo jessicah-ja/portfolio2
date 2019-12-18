@@ -2,7 +2,8 @@
 .header-menu {
     position: fixed;
     width: 95vw;
-    z-index: 10;
+    z-index: 100;
+    top: 0px;
 }
 
 .header-text {
@@ -12,6 +13,7 @@
     width: 775px;
     border-radius: 2px 2px 30px 30px;   
     position: relative;
+    transition: align-items .2s;
 
 }
 

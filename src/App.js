@@ -22,6 +22,7 @@ const anchors = ["firstPage", "secondPage", "thirdPage", "forthPage"];
 
 const FullpageWrapper = () => (
   <ReactFullpage
+    menu='#header-menu'
     anchors={anchors}
     navigation
     navigationTooltips={anchors}
@@ -34,7 +35,7 @@ const FullpageWrapper = () => (
 
       return (
         <div>
-          <div className="header-menu">
+          <div className="header-menu" id="header-menu">
               <div>
                   <div className="header-text">
                       <ul>
@@ -52,7 +53,7 @@ const FullpageWrapper = () => (
             <Banner />
           </div>
           <div className="section" >
-            <Banner />
+
           </div>
           <div className="section" ></div>
           <div className="section" ></div>
@@ -62,7 +63,9 @@ const FullpageWrapper = () => (
   />
 );
 
+
 function App() {
+
   return (
     <div >
       <header>

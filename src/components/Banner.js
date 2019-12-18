@@ -3,7 +3,20 @@ import { Paper, Typography, Grid} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import '../styles/Banner.css';
 
+function handleMouseOver(e) {
+  const text = document.querySelector(".text");
+
+  text.classList.toggle('hidden');
+
+}
+
 function Banner() {
+    
+    const firstSection = document.querySelector(".section");
+    if( firstSection ) {
+      firstSection.addEventListener("mouseover", handleMouseOver);
+    }
+
     const classes = useStyles();
 
     return (
@@ -20,14 +33,25 @@ function Banner() {
                   gutterBottom
                   align='center'
                 >
-                  Developer
+                  <ul className="text hidden">
+                    <li>D</li>
+                    <li>e</li>
+                    <li>v</li>
+                    <li>e</li>
+                    <li>l</li>
+                    <li>o</li>
+                    <li>p</li>
+                    <li>e</li>
+                    <li>r</li>
+                    <li className="ghost spaced">황</li>
+                    <li className="ghost spaced">지</li>
+                    <li className="ghost spaced">애</li>
+                  </ul>
                 </Typography>
               </div>
             </Grid>
           </Grid>
         </Paper>
-        
-        
     );
 }
 

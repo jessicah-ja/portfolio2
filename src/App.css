@@ -14,13 +14,10 @@
     border-radius: 2px 2px 30px 30px;   
     position: relative;
     transition: align-items .2s;
-
 }
 
 .header-text ul {
     list-style: none;
-  
-
 }
 
 .header-text ul a {

@@ -2,6 +2,9 @@ import React from 'react';
 import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverflow:true
 import ReactFullpage from "@fullpage/react-fullpage";
 import Banner from "./components/Banner";
+import About from "./components/About";
+import Skill from "./components/Skill";
+
 
 
 import "./App.css";
@@ -26,7 +29,7 @@ const FullpageWrapper = () => (
     anchors={anchors}
     navigation
     navigationTooltips={anchors}
-    sectionsColor={["#111518", "#ff5f45", "#0798ec", "#ff5f45"]}
+    sectionsColor={["#111518", "#dfe6e9", "#0798ec", "#ff5f45"]}
     onLeave={(origin, destination, direction) => {
       //console.log("onLeave event", { origin, destination, direction });
     }}
@@ -39,10 +42,9 @@ const FullpageWrapper = () => (
               <div>
                   <div className="header-text">
                       <ul>
-                          <li className="header-li">Contact</li>
-                          <li className="header-li">About</li>
-                          <li className="header-li">Skill</li>
-                          <a href="#secondPage"><li className="header-li">Project</li></a>
+                          <a href="#forthPage"><li className="header-li">Contact</li></a>
+                          <a href="#thirdPage"><li className="head<er-li">Skill</li></a>
+                          <a href="#secondPage"><li className="header-li">About</li></a>
                           <a href="#firstPage"><li className="header-li">Home</li></a>
                       </ul>
                   </div>
@@ -53,9 +55,11 @@ const FullpageWrapper = () => (
             <Banner />
           </div>
           <div className="section" >
-
+            <About/>
           </div>
-          <div className="section" ></div>
+          <div className="section" >
+            <Skill />
+          </div>
           <div className="section" ></div>
         </div>
       );

@@ -1,0 +1,36 @@
+.skill-container {
+    color: #fff;
+}
+
+.skill-contents {
+    display: flex;
+}
+
+.skill-title {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin: 10px 0 35px 100px;
+}
+
+
+.skill-image {
+    width: 150px;
+    height: 150px;
+}
+
+.js {
+    width: 140px;
+    height: 150px;
+}
+
+.react {
+    margin-left: 80px;
+}
+
+.skill-text {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 40px 150px 0 100px;
+    line-height: 50px;
+}

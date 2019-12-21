@@ -1,7 +1,7 @@
 .about-title {
     font-size: 60px;
     font-weight: 700;
-    margin: 10px 0 35px 55px;
+    margin: 10px 0 35px 100px;
 }
 
 .about-contents {
@@ -13,7 +13,7 @@
     height: 420px;
     background-image: url("../images/aboutme1.jpg");
     background-size: cover;
-    margin: 20px 50px 0 50px;
+    margin: 20px 50px 0 100px;
 }
 
 .about-text {

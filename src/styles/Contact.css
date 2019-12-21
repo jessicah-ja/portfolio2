@@ -1,0 +1,39 @@
+.contact-title {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 10px 0 35px 100px;
+}
+
+.contact-contents {
+    width: 580px;
+    height: 230px;
+    margin-left: 500px;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -2px rgba(0,0,0,.05);
+    padding: 80px 80px;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+}
+
+.contact-detail h1 {
+    margin-bottom: 50px;
+}
+
+.contact-detail div {
+    font-size: 18px;
+}
+
+.contact-detail a {
+    text-decoration: none;
+    width: 30px;
+    height: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 5px 5px;
+    font-size: 14px;
+    border-radius: 10%;
+    margin-left: 100px;
+}
+
+.contact-detail a:hover {
+    opacity: .5;
+}

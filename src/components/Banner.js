@@ -5,9 +5,7 @@ import '../styles/Banner.css';
 
 function handleMouseOver(e) {
   const text = document.querySelector(".text");
-
   text.classList.toggle('hidden');
-
 }
 
 function Banner() {

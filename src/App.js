@@ -4,6 +4,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import Banner from "./components/Banner";
 import About from "./components/About";
 import Skill from "./components/Skill";
+import Contact from "./components/Contact";
 
 
 
@@ -29,7 +30,7 @@ const FullpageWrapper = () => (
     anchors={anchors}
     navigation
     navigationTooltips={anchors}
-    sectionsColor={["#111518", "#dfe6e9", "#0798ec", "#ff5f45"]}
+    sectionsColor={["#111518", "#dfe6e9", "#111518", "#dfe6e9"]}
     onLeave={(origin, destination, direction) => {
       //console.log("onLeave event", { origin, destination, direction });
     }}
@@ -43,7 +44,7 @@ const FullpageWrapper = () => (
                   <div className="header-text">
                       <ul>
                           <a href="#forthPage"><li className="header-li">Contact</li></a>
-                          <a href="#thirdPage"><li className="head<er-li">Skill</li></a>
+                          <a href="#thirdPage"><li className="header-li">Skill</li></a>
                           <a href="#secondPage"><li className="header-li">About</li></a>
                           <a href="#firstPage"><li className="header-li">Home</li></a>
                       </ul>
@@ -60,7 +61,9 @@ const FullpageWrapper = () => (
           <div className="section" >
             <Skill />
           </div>
-          <div className="section" ></div>
+          <div className="section" >
+            <Contact />
+          </div>
         </div>
       );
     }}

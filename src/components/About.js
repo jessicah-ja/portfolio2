@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/About.css';
+import Pdf from '../doc/jessica_resume.pdf'
 
 
 const About = () => {
@@ -11,7 +12,7 @@ const About = () => {
       </div>
       <div className="about-contents">
         <div className="about-image"> 
-            <img src="../images/aboutme1.jpg" alt=""/>
+            <img src="../images/aboutme1.jpg" alt="aboutme"/>
         </div>
         <div className="about-text">
             안녕하세요. 책임감의 아이콘 황지애입니다. 한번 맡은 일은 해내고야 말죠!<br/>
@@ -21,21 +22,21 @@ const About = () => {
             보다 완성된 결과물을 만들어낼수 있습니다.<br/>
             더 나아가는 Fullstack Web 개발자로 성장하려 합니다.
             <div className="about-icon">
-                <a href="https://github.com/jessicah-ja" alt="" target="blank"> 
+                <a href="https://github.com/jessicah-ja" alt="github" target="_blank" rel="noopener noreferrer"> 
                     <div className="about-icon-git">
-                    <img src="https://www.shareicon.net/data/512x512/2017/03/07/880593_media_512x512.png" alt=""/>
+                    <img src="https://www.shareicon.net/data/512x512/2017/03/07/880593_media_512x512.png" alt="github"/>
                     <p>github</p>
                     </div>
                 </a>
-                <a href="https://www.instagram.com/d_0321" alt="" target="blank"> 
+                <a href="https://www.instagram.com/d_0321" alt="instagram" target="_blank" rel="noopener noreferrer"> 
                     <div className="about-icon-insta">
-                        <img src="https://igtor.com/tasarim/og.png" alt=""/>
+                        <img src="https://igtor.com/tasarim/og.png" alt="instagram"/>
                         <p>instagram</p>
                     </div>
                 </a>
-                <a href="https://www.instagram.com/d_0321" alt="" target="blank"> 
+                <a href={Pdf} alt="resume" target="pdf-frame" rel="noopener noreferrer"> 
                     <div className="about-icon-pdf">
-                        <img src="https://image.flaticon.com/icons/png/512/80/80942.png" alt=""/>
+                    <img src="https://image.flaticon.com/icons/png/512/80/80942.png" alt="resume"/>
                         <p>resume</p>
                     </div>
                 </a>

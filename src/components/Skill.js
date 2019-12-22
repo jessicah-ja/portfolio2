@@ -15,9 +15,9 @@ const Skill = () => {
       <div className="skill-contents">
         
         <div className="skill-text">
-          #React #Movie_app <br/>
+          #React #Movie_app <a href="https://jessicah-ja.github.io/movie_app_2019/" target="blank" ><i class="fas fa-external-link-square-alt"></i></a><br/>
           #VanillaJs #Momentum <br/>
-          #Javascript #jQuery #HTML #CSS #Kakao_clone_app <br/>
+          #Javascript #jQuery #HTML #CSS #Kakao_clone_app <a href="https://jessicah-ja.github.io/kakao-clone-new/" target="blank" ><i class="fas fa-external-link-square-alt"></i></a><br/>
           #REST_API #SI <br/>
           #Java #Spring #Oracle <br/>
         </div>

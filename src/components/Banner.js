@@ -16,7 +16,6 @@ function Banner() {
     }
 
     const classes = useStyles();
-
     return (
   
         <Paper className={classes.mainPost}>
